@@ -1,0 +1,20 @@
+<dependencies>
+  <compile
+      roots="D:\Unity Projects\SignAssistiveAR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\Unity Projects\SignAssistiveAR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\Unity Projects\SignAssistiveAR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\Unity Projects\SignAssistiveAR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,com.google.ar:core:1.22.0@aar,:VuforiaEngine:@aar">
+    <dependency
+        name="D:\Unity Projects\SignAssistiveAR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\Unity Projects\SignAssistiveAR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name="com.google.ar:core:1.22.0@aar"/>
+    <dependency
+        name=":VuforiaEngine:@aar"/>
+  </package>
+</dependencies>
